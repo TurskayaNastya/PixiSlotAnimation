@@ -3,7 +3,7 @@ es6-pixi-slotAnimation
 
 [TRY IT!!!](https://turskayanastya.github.io/PixiSlotAnimation/)
 
-This is a simple Pixi.js slot animation implementation using ES6/2015.
+This is a simple slot animation implementation using ES6/2015 and Pixi.js.
 
 ## Usage
 First of all, this project needs [Webpack](https://webpack.github.io/) in the global scope:
@@ -23,4 +23,4 @@ And install it:
 npm install
 ```
 
-Now you can use `npm start` or `npm run dev` to start watching and compiling files, or `npm run build` to create a minified, ready to production file.
+Now you can use `npm start` or `npm run dev` to start watching and compiling files.
