@@ -1,6 +1,8 @@
 es6-pixi-slotAnimation
 =================
 
+[TRY IT!!!](https://turskayanastya.github.io/PixiSlotAnimation/)
+
 This is a simple Pixi.js slot animation implementation using ES6/2015.
 
 ## Usage
