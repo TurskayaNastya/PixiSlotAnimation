@@ -38,18 +38,6 @@ export default class Reel extends PIXI.Container {
         return result;
     }
 
-    updateRange(shiftFrom, shiftTo) {
-        this.from += shiftFrom;
-        if (this.from > this.reelData.length - 1) {
-            this.from -= this.reelData.length;
-        }
-
-        this.to += shiftTo;
-        if (this.to > this.reelData.length - 1) {
-            this.to -= this.reelData.length;
-        }
-    }
-
     updateRange() {
         this.from += config.shiftAmount;
         if (this.from > this.reelData.length - 1) {
